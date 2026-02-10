@@ -1,0 +1,42 @@
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.st-title {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+  color: #f5f5f5;
+  text-align: center;
+  text-shadow:
+    0 0 6px rgba(255, 0, 60, 0.6),
+    0 0 14px rgba(255, 0, 60, 0.45),
+    0 0 32px rgba(120, 0, 255, 0.35);
+
+  margin-bottom: 28px;
+}
+
+.st-image {
+  width: 420px;
+  max-width: 90vw;
+  border-radius: 22px;
+
+  margin-bottom: 20px;
+
+  box-shadow:
+    0 0 12px rgba(255, 0, 80, 0.35),
+    0 0 32px rgba(120, 0, 255, 0.25);
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+button {
+  margin: 10px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(180deg, #1a0a14, #3a0f22, #12000a);
+  font-family: "StrangerThings", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "StrangerThings";
+  src: url("./assets/fonts/Benguiat Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Styles for larger screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+}
